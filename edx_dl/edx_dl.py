@@ -422,7 +422,7 @@ def edx_get_headers():
     logging.info('Building initial headers for future requests.')
 
     headers = {
-        'User-Agent': 'edX-downloader/0.01',
+        'User-Agent': 'Mozilla/5.0',
         'Accept': 'application/json, text/javascript, */*; q=0.01',
         'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8',
         'Referer': EDX_HOMEPAGE,
